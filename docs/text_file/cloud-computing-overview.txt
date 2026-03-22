@@ -1,0 +1,23 @@
+Cloud Computing Fundamentals
+
+Cloud computing is the delivery of computing services over the internet, including servers, storage, databases, networking, software, analytics, and intelligence. It offers faster innovation, flexible resources, and economies of scale. Users typically pay only for the cloud services they use, helping lower operating costs and run infrastructure more efficiently.
+
+The three main cloud service models are Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). IaaS provides virtualized computing resources over the internet. PaaS provides a platform allowing customers to develop, run, and manage applications. SaaS delivers software applications over the internet on a subscription basis.
+
+Cloud Deployment Models
+
+Public clouds are owned and operated by third-party cloud service providers and deliver computing resources over the internet. Major public cloud providers include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). Resources are shared among multiple customers, making it a cost-effective option for most workloads.
+
+Private clouds are used exclusively by a single organization. They can be physically located at the company's on-site data center or hosted by a third-party provider. Private clouds offer greater control, security, and customization. Hybrid clouds combine public and private clouds, allowing data and applications to move between them for greater flexibility and optimization.
+
+Containerization and Orchestration
+
+Containers are lightweight, standalone packages that include everything needed to run a piece of software — code, runtime, libraries, and settings. Docker is the most widely used containerization platform. Containers ensure that software runs consistently across different computing environments, eliminating the classic "it works on my machine" problem.
+
+Kubernetes is an open-source container orchestration system for automating deployment, scaling, and management of containerized applications. It groups containers into logical units called pods and manages them across a cluster of machines. Kubernetes has become the industry standard for running containers at scale in production environments.
+
+Serverless Computing
+
+Serverless computing is a cloud execution model where the cloud provider dynamically manages the allocation of machine resources. Developers write functions that are triggered by events, and the provider handles all infrastructure concerns. Popular serverless platforms include AWS Lambda, Azure Functions, and Google Cloud Functions.
+
+The key benefit of serverless is that developers focus purely on code without worrying about provisioning or managing servers. It scales automatically and billing is based on actual execution time rather than reserved capacity. Serverless is well suited for event-driven workloads, APIs, and data processing pipelines where traffic is unpredictable.

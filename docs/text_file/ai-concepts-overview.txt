@@ -1,0 +1,23 @@
+Artificial Intelligence and Machine Learning
+
+Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, and self-correction. AI has become one of the most transformative technologies of the 21st century, influencing industries ranging from healthcare to finance.
+
+Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. It focuses on developing computer programs that can access data and use it to learn for themselves. Common machine learning techniques include supervised learning, unsupervised learning, and reinforcement learning.
+
+Natural Language Processing
+
+Natural language processing (NLP) is a branch of AI that helps computers understand, interpret, and manipulate human language. NLP draws from many disciplines, including computer science and computational linguistics, in its pursuit to fill the gap between human communication and computer understanding.
+
+Large language models (LLMs) are a type of NLP model trained on vast amounts of text data. They are capable of generating human-like text, answering questions, summarizing documents, and translating languages. Examples include GPT, Claude, and LLaMA. These models have revolutionized how we interact with machines using natural language.
+
+Retrieval-Augmented Generation
+
+Retrieval-augmented generation (RAG) is a technique that combines information retrieval with text generation. Instead of relying solely on knowledge stored in model parameters, RAG systems retrieve relevant documents from an external knowledge base and use them as context when generating responses.
+
+RAG consists of two main components: a retriever and a generator. The retriever searches a document store to find chunks of text relevant to a given query. The generator, typically an LLM, takes those retrieved chunks as additional context and produces a grounded, informed response. This approach reduces hallucination and keeps responses factually accurate.
+
+Vector Databases and Embeddings
+
+Embeddings are numerical representations of text that capture semantic meaning. Words or sentences with similar meanings are mapped to nearby points in a high-dimensional vector space. These representations are produced by embedding models such as OpenAI's text-embedding-ada or sentence-transformers.
+
+Vector databases are specialized databases designed to store and query embedding vectors efficiently. When a user submits a query, it is converted into an embedding, and the vector database performs a similarity search to find the most relevant stored vectors. Popular vector databases include Chroma, Pinecone, Weaviate, and FAISS. They form the backbone of modern RAG pipelines.
